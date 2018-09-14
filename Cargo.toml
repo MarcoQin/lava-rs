@@ -1,0 +1,11 @@
+[package]
+name = "lava_rs"
+version = "0.1.0"
+authors = ["marcoqin <qyyfy2009@gmail.com>"]
+build = "build.rs"
+
+[dependencies]
+libc = "0.2.0"
+
+[build-dependencies]
+cc = "1.0"
